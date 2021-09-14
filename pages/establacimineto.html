@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Establecimiento</title>
+
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div id="menu">
+        <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">CuentAppConmigo</a>
+                <button class="navbar-toggler bg-danger" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink"
+                                data-bs-toggle="dropdown">
+                                Empresa
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Eventos</a></li>
+                                <li><a class="dropdown-item" href="#">sucursales</a></li>
+                                <li><a class="dropdown-item" href="#">Equipos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink"
+                                data-bs-toggle="dropdown">
+                                Conteo
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Crear</a></li>
+                                <li><a class="dropdown-item" href="#">visualizar</a></li>
+                                <li><a class="dropdown-item" href="#">Eliminar</a></li>
+                                <li><a class="dropdown-item" href="#">Actualizar</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink"
+                                data-bs-toggle="dropdown">
+                                Cuenta
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Configurar</a></li>
+                                <li><a class="dropdown-item" href="#">cerrar sesion</a></li>
+
+                            </ul>
+                        </li>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div>
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Capacidad Max</label>
+              <input type="number" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">sin definir</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+              </div>
+
+            <div class="mb-3">
+                <label for=""> conteo</label>
+                <select class="form-select" aria-label="Default select example">
+                <option value="1" selected>Conteo simple</option>
+                <option value="2">Conteo CI</option>
+                <option value="3">Conteo R</option>
+              </select>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Informacion adicional</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Capacidad Max</label>
+                <input type="number" class="form-control" id="exampleInputPassword1">
+              </div>
+
+            
+            
+            <button type="submit" class="btn btn-primary">Modificar</button>
+          </form>
+    </div>
+
+
+    <div>
+        <div class="card" style="width: 18rem;">
+            <img src="/images/oficina.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <input class="form-control" type="file" id="formFile ">
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
