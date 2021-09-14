@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
 </head>
 
-<body>
+<body style="background-image: url(/images/fondo1-1920x1280.jpg);">
 
     <div id="menu">
         <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
@@ -67,57 +67,66 @@
         </nav>
     </div>
 
-    <div>
+    <div class="bg-dark bg-opacity-25">
         <form>
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="oficina 1">
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Capacidad Max</label>
-              <input type="number" class="form-control" id="exampleInputPassword1">
+                <label for="exampleInputPassword1" class="form-label">Capacidad Max</label>
+                <input type="number" class="form-control" id="exampleInputPassword1" value="12">
             </div>
 
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">sin definir</label>
-                <input type="text" class="form-control" id="exampleInputPassword1">
-              </div>
+                <input type="text" class="form-control" id="exampleInputPassword1" value="sin definfinir">
+            </div>
 
             <div class="mb-3">
                 <label for=""> conteo</label>
                 <select class="form-select" aria-label="Default select example">
-                <option value="1" selected>Conteo simple</option>
-                <option value="2">Conteo CI</option>
-                <option value="3">Conteo R</option>
-              </select>
-              </div>
-
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Informacion adicional</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Capacidad Max</label>
-                <input type="number" class="form-control" id="exampleInputPassword1">
-              </div>
-
-            
-            
-            <button type="submit" class="btn btn-primary">Modificar</button>
-          </form>
-    </div>
-
-
-    <div>
-        <div class="card" style="width: 18rem;">
-            <img src="/images/oficina.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <input class="form-control" type="file" id="formFile ">
-
+                    <option value="1" selected>Conteo simple</option>
+                    <option value="2">Conteo CI</option>
+                    <option value="3">Conteo R</option>
+                </select>
             </div>
-        </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Informacion adicional</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" > Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis laborum quo eos distinctio doloribus tenetur odio sequi quam optio atque, cupiditate odit tempora consequuntur fugiat suscipit! Ad eius a mollitia!
+                Dolor dolores libero sunt expedita est eaque odio iure, voluptatibus quia, veniam temporibus repudiandae provident officia, repellendus hic. Temporibus et eum repudiandae ab praesentium voluptas inventore perferendis animi at incidunt.
+                In eveniet, labore deleniti dolorum earum natus consectetur modi saepe harum quasi repellat quas culpa rem commodi sint, animi, nobis sunt hic? Sequi consequatur mollitia autem sit in explicabo cumque?
+                Qui ea quis, perspiciatis ut, ratione, vel voluptatibus perferendis mollitia delectus voluptates porro dolorem quisquam sed culpa iste vero corrupti dolore aut eum ducimus aliquam a tenetur libero! Quibusdam, molestias?
+                Vitae temporibus unde repellat at consequatur? Corporis, inventore. Et veritatis doloremque voluptatum assumenda. Odit, asperiores quia ducimus hic quasi amet laboriosam, assumenda aperiam quisquam unde sint dolore a obcaecati modi.</textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">sin especificar</label>
+                <input type="text" class="form-control" id="exampleInputPassword1 " value="sin definfinir">
+            </div>
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/oficina.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <input class="form-control" type="file" id="formFile ">
+
+                    </div>
+                </div>
+            </div>
+            <br>
+
+
+            <div>
+                <button class="btn btn-primary">Guardar</button>
+            </div>
+
+
+        </form>
     </div>
+
+
+
 
 
 
