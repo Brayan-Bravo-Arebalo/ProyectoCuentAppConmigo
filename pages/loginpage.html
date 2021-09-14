@@ -9,23 +9,24 @@
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
 </head>
 
-<body style="background-image: url(/images/fondo1-1920x1280.jpg);">
+<body style="background-image: url(/images/fondo.jpg);">
     <div class="container bg-light bg-opacity-25 position-absolute top-50 start-50 translate-middle text-center col-12 col-lg-4 " >
-        <form action="" class="">
-
+        <form action="" >
 
             <div>
                 <h2>Bienvenido</h2>
             </div>
 
-            <div class="form-floating ">
-                <input type="email" class="form-control" id="email" placeholder=" ">
-                <label for="email">Email</label>
+            <div class="form-floating  ">
+                <input type="email" class="form-control" id="email" placeholder=" " required>
+                <label for="email" class="form-label" >Email</label>
+                
             </div>
             <br>
             <div class="form-floating ">
-                <input type="password" class="form-control" id="password" placeholder=" ">
-                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder=" " required>
+                <label for="password" class="form-label" >Password</label>
+                
             </div>
             <br>
             <div>
@@ -37,6 +38,9 @@
         </form>
 
     </div>
+
+
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
